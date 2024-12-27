@@ -1,0 +1,57 @@
+.addUser{
+    padding: 30px;
+    width: max-content;
+    height: max-content;
+    background-color: rgba(17, 25, 40, 0.781);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    border-radius: 10px;
+}
+.addUser form {
+    display: flex;
+    gap: 20px;
+}
+.addUser  input{
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+}
+.addUser button{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.addUser .user{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 50px;
+}
+.addUser .user .detail img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.addUser .user .detail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.addUser .user .detail button{
+padding: 10px;
+background-color: #1a73e8;
+color: white;
+border: none;
+cursor: pointer;
+border-radius: 10px;
+}
